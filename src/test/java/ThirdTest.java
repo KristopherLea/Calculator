@@ -2,12 +2,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FirstTest {
+public class ThirdTest {
 
     @Test
-    public void add(){
+    public void mult(){
         int expected = 0;
-        int actual = Calculator.add();
+        int actual = Calculator.mult();
         assertEquals(expected, actual);
     }
 }
