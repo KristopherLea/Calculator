@@ -2,12 +2,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ThirdTest {
+public class FourthTest {
 
     @Test
-    public void multiply(){
+    public void div(){
         int expected = 0;
-        int actual = Calculator.multiply();
+        int actual = Calculator.div();
         assertEquals(expected, actual);
     }
 }

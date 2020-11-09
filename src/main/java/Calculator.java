@@ -10,8 +10,18 @@ public class Calculator {
        return a + b;
     }
 
-    public static int mult(){
+    public static int multiply(){
         return a * b;
+    }
+
+    public static int div(){
+        return a * b;
+    }
+    public static int squaredA(){
+        return a * a;
+    }
+    public static int squaredB(){
+        return b * b;
     }
 
 }
