@@ -23,5 +23,8 @@ public class Calculator {
     public static int squaredB(){
         return b * b;
     }
+    public static int cubeA(){
+        return a * a * a;
+    }
 
 }
